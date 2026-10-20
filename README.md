@@ -1,7 +1,7 @@
-# DTworkeasy Bridge / DT Agent Bridge
+# DT Agent Bridge
 
 <p align="center">
-  <img src="screenshots/icon.svg" alt="DTworkeasy Bridge" width="96" />
+  <img src="screenshots/icon.svg" alt="DT Agent Bridge" width="96" />
 </p>
 
 **电脑常驻桥接 · 手机扫码远控本机 Cursor / Codex / BFBT Code**
@@ -16,7 +16,7 @@
 
 ### 一句话简介
 
-**DTworkeasy Bridge（DT Agent Bridge）** 是安装在电脑上的常驻桥接程序：保持运行后，用手机端 [DTworkeasy](https://github.com/dongfutong/DTworkeasy-Mobile) 扫码配对，即可远程使用本机上的 **Cursor**、**Codex** 以及 **BFBT Code** 等 Agent。
+**DT Agent Bridge**（DTworkeasy 电脑端桥接） 是安装在电脑上的常驻桥接程序：保持运行后，用手机端 [DTworkeasy](https://github.com/dongfutong/DTworkeasy-Mobile) 扫码配对，即可远程使用本机上的 **Cursor**、**Codex** 以及 **BFBT Code** 等 Agent。
 
 ### 主要特性
 
@@ -92,8 +92,8 @@ dt-bridge tui
 
 | | |
 |:---:|:---:|
-| ![desktop](screenshots/01-desktop.png) | ![agents](screenshots/02-agents.png) |
-| ![pairing](screenshots/03-pairing.png) | ![settings](screenshots/04-settings.png) |
+| ![总览](screenshots/01-desktop.png) | ![设备与工作区](screenshots/02-agents.png) |
+| ![控制者](screenshots/03-pairing.png) | ![设置](screenshots/04-settings.png) |
 
 ### 与姊妹产品的关系
 
@@ -118,7 +118,7 @@ dt-bridge tui
 
 ### One-liner
 
-**DTworkeasy Bridge (DT Agent Bridge)** is a tray-resident desktop bridge. Keep it running on your PC, pair with the [DTworkeasy](https://github.com/dongfutong/DTworkeasy-Mobile) mobile app via QR code, and remotely drive local **Cursor**, **Codex**, and **BFBT Code** agents.
+**DT Agent Bridge** (desktop bridge for DTworkeasy) is a tray-resident desktop bridge. Keep it running on your PC, pair with the [DTworkeasy](https://github.com/dongfutong/DTworkeasy-Mobile) mobile app via QR code, and remotely drive local **Cursor**, **Codex**, and **BFBT Code** agents.
 
 ### Features
 
@@ -163,11 +163,11 @@ This repository is **distribution-only** (installers + docs, **no source**).
 
 ## 日本語（抜粋）
 
-**DTworkeasy Bridge** は PC 常駐のブリッジです。スマホの DTworkeasy で QR ペアリングすると、本機の Cursor / Codex / BFBT Code を遠隔利用できます。Windows・macOS（Apple Silicon）・Linux（TUI）に対応。配布専用リポジトリ（ソース無し）。公式サイト：https://www.dtrony.com
+**DT Agent Bridge** は PC 常駐のブリッジです。スマホの DTworkeasy で QR ペアリングすると、本機の Cursor / Codex / BFBT Code を遠隔利用できます。Windows・macOS（Apple Silicon）・Linux（TUI）に対応。配布専用リポジトリ（ソース無し）。公式サイト：https://www.dtrony.com
 
 ## 한국어（요약）
 
-**DTworkeasy Bridge**는 PC에 상주하는 브리지입니다. DTworkeasy 모바일 앱에서 QR로 페어링하면 로컬 Cursor / Codex / BFBT Code 를 원격 제어할 수 있습니다. Windows·macOS(Apple Silicon)·Linux(TUI) 지원. 배포 전용 저장소(소스 없음). 공식: https://www.dtrony.com
+**DT Agent Bridge**는 PC에 상주하는 브리지입니다. DTworkeasy 모바일 앱에서 QR로 페어링하면 로컬 Cursor / Codex / BFBT Code 를 원격 제어할 수 있습니다. Windows·macOS(Apple Silicon)·Linux(TUI) 지원. 배포 전용 저장소(소스 없음). 공식: https://www.dtrony.com
 
 ---
 
