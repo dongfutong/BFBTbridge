@@ -90,9 +90,12 @@ dt-bridge tui
 
 ### 截图
 
-| | |
+实拍自运行中的 **DT Agent Bridge**（非 BFBT Code）。
+
+| 总览 Overview | 设备与工作区 Devices / agents |
 |:---:|:---:|
 | ![总览](screenshots/01-desktop.png) | ![设备与工作区](screenshots/02-agents.png) |
+| **控制者 Controllers** | **设置 Settings** |
 | ![控制者](screenshots/03-pairing.png) | ![设置](screenshots/04-settings.png) |
 
 ### 与姊妹产品的关系
