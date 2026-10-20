@@ -38,7 +38,7 @@
 
 #### Windows
 
-1. 从本仓库 [Releases](../../releases) 下载 `DT-Agent-Bridge_*_x64_zh-CN.msi`（中文）或 `*_en-US.msi`（英文），也可使用 `*_x64-setup.exe`
+1. 从本仓库 [Releases](../../releases) 下载 `DT-Agent-Bridge_*_x64_zh-CN.msi`（与官网一致；历史 en-US / setup.exe 见旧 Release）
 2. 双击安装。若出现「Windows 已保护你的电脑」，确认来自本仓库/官网后点「更多信息」→「仍要运行」
 3. 从开始菜单打开 **DT Agent Bridge**，登录东复同账号并保持运行
 4. 在手机 DTworkeasy 中扫码配对
@@ -78,13 +78,13 @@ dt-bridge tui
 
 | 平台 | 文件名 | 说明 |
 |------|--------|------|
-| Windows (zh-CN) | `DT-Agent-Bridge_1.0.8.26101801_x64_zh-CN.msi` | MSI 安装包 |
-| Windows (en-US) | `DT-Agent-Bridge_1.0.8.26101801_x64_en-US.msi` | MSI 安装包 |
-| Windows NSIS | `DT-Agent-Bridge_1.0.8.26101801_x64-setup.exe` | 安装向导 |
-| macOS | `DT-Agent-Bridge_1.0.8.26101802_aarch64.dmg` | Apple Silicon |
+| Windows (zh-CN) | `DT-Agent-Bridge_1.0.8.26102002_x64_zh-CN.msi` | MSI 安装包（与官网一致） |
+| macOS | `DT-Agent-Bridge_1.0.8.26102001_aarch64.dmg` | Apple Silicon（已公证） |
 | Linux deb | `dt-agent-bridge-tui_1.0.0_amd64.deb` | Ubuntu/Debian |
 | Linux tar.gz | `dt-agent-bridge-tui_1.0.0_linux_x86_64.tar.gz` | 便携包 |
-| 校验 | `SHA256SUMS` / `install.py` | Linux 校验与安装脚本 |
+| 校验 | `SHA256SUMS` / `install.py` | 校验与安装脚本 |
+
+> 说明：官网当前 Windows 渠道以 zh-CN MSI 为主；历史 en-US MSI / NSIS setup 仍可在旧 Release 中找到。
 
 也可从官网下载中心获取：<https://www.dtrony.com/>
 
@@ -171,5 +171,5 @@ This repository is **distribution-only** (installers + docs, **no source**).
 
 ---
 
-**Suggested Release tag:** `v1.0.8.26101801`（Windows） / 可同时附带 macOS `1.0.8.26101802` 与 Linux `1.0.0` 资源  
+**Suggested Release tag:** `v1.0.8.26102002`（Windows zh-CN） / 可同时附带 macOS `1.0.8.26102001` 与 Linux `1.0.0` 资源  
 **Docs:** https://www.dtrony.com/docs
