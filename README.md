@@ -1,7 +1,7 @@
-# DT Agent Bridge
+# BFBTbridge
 
 <p align="center">
-  <img src="screenshots/icon.svg" alt="DT Agent Bridge" width="96" />
+  <img src="screenshots/icon.svg" alt="BFBTbridge" width="96" />
 </p>
 
 **电脑常驻桥接 · 手机扫码远控本机 Cursor / Codex / BFBT Code**
@@ -16,7 +16,7 @@
 
 ### 一句话简介
 
-**DT Agent Bridge**（DTworkeasy 电脑端桥接） 是安装在电脑上的常驻桥接程序：保持运行后，用手机端 [DTworkeasy](https://github.com/dongfutong/DTworkeasy-Mobile) 扫码配对，即可远程使用本机上的 **Cursor**、**Codex** 以及 **BFBT Code** 等 Agent。
+**BFBTbridge** 是安装在电脑上的常驻桥接程序：保持运行后，用手机端 [DTworkeasy](https://github.com/dongfutong/DTworkeasy-Mobile) 扫码配对，即可远程使用本机上的 **Cursor**、**Codex** 以及 **BFBT Code** 等 Agent。
 
 ### 主要特性
 
@@ -40,7 +40,7 @@
 
 1. 从本仓库 [Releases](../../releases) 下载 `DT-Agent-Bridge_*_x64_zh-CN.msi`（与官网一致；历史 en-US / setup.exe 见旧 Release）
 2. 双击安装。若出现「Windows 已保护你的电脑」，确认来自本仓库/官网后点「更多信息」→「仍要运行」
-3. 从开始菜单打开 **DT Agent Bridge**，登录东复同账号并保持运行
+3. 从开始菜单打开 **BFBTbridge**，登录东复同账号并保持运行
 4. 在手机 DTworkeasy 中扫码配对
 
 #### macOS（Apple Silicon）
@@ -74,7 +74,7 @@ dt-bridge tui
 
 ### 下载表（Release 资源）
 
-将下列文件上传到 GitHub Release 后，链接即可使用：
+将下列文件上传到 GitHub Release 后，链接即可使用。文件名与已发布 Release 资源保持一致，以免打断现有下载链接。
 
 | 平台 | 文件名 | 说明 |
 |------|--------|------|
@@ -90,7 +90,7 @@ dt-bridge tui
 
 ### 截图
 
-实拍自运行中的 **DT Agent Bridge**（非 BFBT Code）。
+实拍自运行中的 **BFBTbridge**（非 BFBT Code）。
 
 | 总览 Overview | 设备与工作区 Devices / agents |
 |:---:|:---:|
@@ -101,7 +101,7 @@ dt-bridge tui
 ### 与姊妹产品的关系
 
 ```
-手机 DTworkeasy  ──扫码──►  本仓库 Bridge（电脑常驻）
+手机 DTworkeasy  ──扫码──►  BFBTbridge（电脑常驻）
                               │
                               ├── Cursor / Codex
                               └── BFBT Code（旗舰 AI 编程助手）
@@ -121,7 +121,7 @@ dt-bridge tui
 
 ### One-liner
 
-**DT Agent Bridge** (desktop bridge for DTworkeasy) is a tray-resident desktop bridge. Keep it running on your PC, pair with the [DTworkeasy](https://github.com/dongfutong/DTworkeasy-Mobile) mobile app via QR code, and remotely drive local **Cursor**, **Codex**, and **BFBT Code** agents.
+**BFBTbridge** is the tray-resident desktop bridge for the [DTworkeasy](https://github.com/dongfutong/DTworkeasy-Mobile) mobile app. Keep it running on your PC, pair via QR code, and remotely drive local **Cursor**, **Codex**, and **BFBT Code** agents.
 
 ### Features
 
@@ -141,7 +141,7 @@ dt-bridge tui
 
 ### Install
 
-**Windows:** download the MSI or setup EXE from [Releases](../../releases), install, sign in, keep the tray app running, then pair from DTworkeasy.
+**Windows:** download the MSI or setup EXE from [Releases](../../releases), install, sign in, and open **BFBTbridge** from the Start Menu. Keep it running, then pair from DTworkeasy.
 
 **macOS:** open the DMG, drag to Applications, allow in Privacy & Security if prompted, sign in, then pair.
 
@@ -153,9 +153,15 @@ sudo dpkg -i dt-agent-bridge-tui_1.0.0_amd64.deb
 dt-bridge serve --credential-store protected-file
 ```
 
+Asset filenames on existing Releases are unchanged so current download links keep working.
+
 ### Downloads
 
 See the Chinese table above for exact asset filenames under [Releases](../../releases), or use <https://www.dtrony.com/>.
+
+### Screenshots
+
+Live captures of **BFBTbridge** (not BFBT Code). See the Chinese section above.
 
 ### License note
 
@@ -166,11 +172,11 @@ This repository is **distribution-only** (installers + docs, **no source**).
 
 ## 日本語（抜粋）
 
-**DT Agent Bridge** は PC 常駐のブリッジです。スマホの DTworkeasy で QR ペアリングすると、本機の Cursor / Codex / BFBT Code を遠隔利用できます。Windows・macOS（Apple Silicon）・Linux（TUI）に対応。配布専用リポジトリ（ソース無し）。公式サイト：https://www.dtrony.com
+**BFBTbridge** は PC 常駐のブリッジです。スマホの DTworkeasy で QR ペアリングすると、本機の Cursor / Codex / BFBT Code を遠隔利用できます。Windows・macOS（Apple Silicon）・Linux（TUI）に対応。配布専用リポジトリ（ソース無し）。公式サイト：https://www.dtrony.com
 
 ## 한국어（요약）
 
-**DT Agent Bridge**는 PC에 상주하는 브리지입니다. DTworkeasy 모바일 앱에서 QR로 페어링하면 로컬 Cursor / Codex / BFBT Code 를 원격 제어할 수 있습니다. Windows·macOS(Apple Silicon)·Linux(TUI) 지원. 배포 전용 저장소(소스 없음). 공식: https://www.dtrony.com
+**BFBTbridge**는 PC에 상주하는 브리지입니다. DTworkeasy 모바일 앱에서 QR로 페어링하면 로컬 Cursor / Codex / BFBT Code 를 원격 제어할 수 있습니다. Windows·macOS(Apple Silicon)·Linux(TUI) 지원. 배포 전용 저장소(소스 없음). 공식: https://www.dtrony.com
 
 ---
 
