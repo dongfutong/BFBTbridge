@@ -38,14 +38,14 @@
 
 #### Windows
 
-1. 从本仓库 [Releases](../../releases) 下载 `DT-Agent-Bridge_*_x64_zh-CN.msi`（与官网一致；历史 en-US / setup.exe 见旧 Release）
+1. 从本仓库 [Releases](../../releases) 下载 `BFBTbridge_*_x64_zh-CN.msi`（与官网一致；历史 en-US MSI / setup.exe 见标签 `v1.0.8.26101801`，文件名同为 `BFBTbridge_*`）
 2. 双击安装。若出现「Windows 已保护你的电脑」，确认来自本仓库/官网后点「更多信息」→「仍要运行」
 3. 从开始菜单打开 **BFBTbridge**，登录东复同账号并保持运行
 4. 在手机 DTworkeasy 中扫码配对
 
 #### macOS（Apple Silicon）
 
-1. 下载 `DT-Agent-Bridge_*_aarch64.dmg`
+1. 下载 `BFBTbridge_*_aarch64.dmg`
 2. 打开 DMG，将应用拖入「应用程序」
 3. 首次打开若提示身份不明，到「系统设置 → 隐私与安全性」点「仍要打开」
 4. 登录账号，配合手机 DTworkeasy 扫码使用
@@ -54,11 +54,11 @@
 
 ```bash
 # deb
-sudo dpkg -i dt-agent-bridge-tui_1.0.0_amd64.deb
+sudo dpkg -i bfbtbridge-tui_1.0.0_amd64.deb
 
 # 或 tar.gz + 校验
 sha256sum --check SHA256SUMS --ignore-missing
-python3 install.py dt-agent-bridge-tui_1.0.0_linux_x86_64.tar.gz \
+python3 install.py bfbtbridge-tui_1.0.0_linux_x86_64.tar.gz \
   --checksums SHA256SUMS
 ```
 
@@ -74,15 +74,15 @@ dt-bridge tui
 
 ### 下载表（Release 资源）
 
-将下列文件上传到 GitHub Release 后，链接即可使用。文件名与已发布 Release 资源保持一致，以免打断现有下载链接。
+下列文件名与 Latest Release [`v1.0.8.26102002`](../../releases/tag/v1.0.8.26102002) 的资源一致（`BFBTbridge_*` / `bfbtbridge-tui_*`）。
 
 | 平台 | 文件名 | 说明 |
 |------|--------|------|
-| Windows (zh-CN) | `DT-Agent-Bridge_1.0.8.26102002_x64_zh-CN.msi` | MSI 安装包（与官网一致） |
-| macOS | `DT-Agent-Bridge_1.0.8.26102001_aarch64.dmg` | Apple Silicon（已公证） |
-| Linux deb | `dt-agent-bridge-tui_1.0.0_amd64.deb` | Ubuntu/Debian |
-| Linux tar.gz | `dt-agent-bridge-tui_1.0.0_linux_x86_64.tar.gz` | 便携包 |
-| 校验 | `SHA256SUMS` / `install.py` | 校验与安装脚本 |
+| Windows (zh-CN) | [`BFBTbridge_1.0.8.26102002_x64_zh-CN.msi`](../../releases/download/v1.0.8.26102002/BFBTbridge_1.0.8.26102002_x64_zh-CN.msi) | MSI 安装包（与官网一致） |
+| macOS | [`BFBTbridge_1.0.8.26102001_aarch64.dmg`](../../releases/download/v1.0.8.26102002/BFBTbridge_1.0.8.26102001_aarch64.dmg) | Apple Silicon（已公证） |
+| Linux deb | [`bfbtbridge-tui_1.0.0_amd64.deb`](../../releases/download/v1.0.8.26102002/bfbtbridge-tui_1.0.0_amd64.deb) | Ubuntu/Debian |
+| Linux tar.gz | [`bfbtbridge-tui_1.0.0_linux_x86_64.tar.gz`](../../releases/download/v1.0.8.26102002/bfbtbridge-tui_1.0.0_linux_x86_64.tar.gz) | 便携包 |
+| 校验 | [`SHA256SUMS`](../../releases/download/v1.0.8.26102002/SHA256SUMS) / [`install.py`](../../releases/download/v1.0.8.26102002/install.py) | 校验与安装脚本 |
 
 > 说明：官网当前 Windows 渠道以 zh-CN MSI 为主；历史 en-US MSI / NSIS setup 仍可在旧 Release 中找到。
 
@@ -141,19 +141,20 @@ dt-bridge tui
 
 ### Install
 
-**Windows:** download the MSI or setup EXE from [Releases](../../releases), install, sign in, and open **BFBTbridge** from the Start Menu. Keep it running, then pair from DTworkeasy.
+**Windows:** download [`BFBTbridge_1.0.8.26102002_x64_zh-CN.msi`](../../releases/download/v1.0.8.26102002/BFBTbridge_1.0.8.26102002_x64_zh-CN.msi) from [Releases](../../releases), install, sign in, and open **BFBTbridge** from the Start Menu. Keep it running, then pair from DTworkeasy.
 
-**macOS:** open the DMG, drag to Applications, allow in Privacy & Security if prompted, sign in, then pair.
+**macOS:** open [`BFBTbridge_1.0.8.26102001_aarch64.dmg`](../../releases/download/v1.0.8.26102002/BFBTbridge_1.0.8.26102001_aarch64.dmg), drag to Applications, allow in Privacy & Security if prompted, sign in, then pair.
 
 **Linux:**
 
 ```bash
-sudo dpkg -i dt-agent-bridge-tui_1.0.0_amd64.deb
-# or extract the tar.gz / run install.py after verifying SHA256SUMS
+sudo dpkg -i bfbtbridge-tui_1.0.0_amd64.deb
+# or verify SHA256SUMS, then:
+# python3 install.py bfbtbridge-tui_1.0.0_linux_x86_64.tar.gz --checksums SHA256SUMS
 dt-bridge serve --credential-store protected-file
 ```
 
-Asset filenames on existing Releases are unchanged so current download links keep working.
+Latest (`v1.0.8.26102002`) assets use `BFBTbridge_*` and `bfbtbridge-tui_*` names. Tag `v1.0.8.26101801` uses the same prefixes.
 
 ### Downloads
 
