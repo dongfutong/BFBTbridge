@@ -90,7 +90,7 @@ dt-bridge tui
 
 ### 截图
 
-实拍自运行中的 **BFBTbridge**（非 BFBT Code）。
+实拍自当前已发布安装包的运行界面（非 BFBT Code）。文档中的产品名称是 **BFBTbridge**；截图像素保持实拍，未改字。
 
 | 总览 Overview | 设备与工作区 Devices / agents |
 |:---:|:---:|
@@ -161,7 +161,7 @@ See the Chinese table above for exact asset filenames under [Releases](../../rel
 
 ### Screenshots
 
-Live captures of **BFBTbridge** (not BFBT Code). See the Chinese section above.
+Live captures of the currently published installer (not BFBT Code). These docs call the product **BFBTbridge**; screenshot pixels are left as captured. See the Chinese section above.
 
 ### License note
 
