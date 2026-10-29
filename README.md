@@ -92,11 +92,11 @@ dt-bridge tui
 
 实拍自当前已发布安装包的运行界面（非 BFBT Code）。文档中的产品名称是 **BFBTbridge**；截图像素保持实拍，未改字。
 
-| 总览 Overview | 设备与工作区 Devices / agents |
+| 总览 Overview | 调度 Scheduler |
 |:---:|:---:|
-| ![总览](screenshots/01-desktop.png) | ![设备与工作区](screenshots/02-agents.png) |
-| **控制者 Controllers** | **设置 Settings** |
-| ![控制者](screenshots/03-pairing.png) | ![设置](screenshots/04-settings.png) |
+| ![总览](screenshots/01-desktop.png) | ![调度](screenshots/02-agents.png) |
+| **代理集 Agents** | **设置 Settings** |
+| ![代理集](screenshots/03-pairing.png) | ![设置](screenshots/04-settings.png) |
 
 ### 与姊妹产品的关系
 
@@ -107,8 +107,9 @@ dt-bridge tui
                               └── BFBT Code（旗舰 AI 编程助手）
 ```
 
-- **BFBT Code** 需要试用或会员；**DTworkeasy** 注册即可免费使用  
-- 远控电脑端 BFBT Code 时，电脑端须处于试用/会员可用状态  
+- **BFBTbridge** 与 **BFBT Code** 采用同一规则：需处于试用期或有效会员状态方可使用；一份会员同时覆盖 **BFBT Code 与 BFBTbridge** 两者  
+- **DTworkeasy**（手机端）注册后即可免费使用，无需会员  
+- 远控电脑端 BFBT Code 时，电脑端同样须处于试用/会员可用状态  
 
 ### 许可与声明
 
@@ -162,7 +163,11 @@ See the Chinese table above for exact asset filenames under [Releases](../../rel
 
 ### Screenshots
 
-Live captures of the currently published installer (not BFBT Code). These docs call the product **BFBTbridge**; screenshot pixels are left as captured. See the Chinese section above.
+Live captures of the currently published installer (not BFBT Code): 总览 Overview, 调度 Scheduler, 代理集 Agents, and 设置 Settings. These docs call the product **BFBTbridge**; screenshot pixels are left as captured. See the Chinese section above.
+
+### Membership
+
+**BFBTbridge** itself requires an active trial or paid membership, under the same rules as **BFBT Code** — a single membership covers **both BFBT Code and BFBTbridge**. The **DTworkeasy** mobile app remains free after registration; no membership required.
 
 ### License note
 
@@ -173,11 +178,11 @@ This repository is **distribution-only** (installers + docs, **no source**).
 
 ## 日本語（抜粋）
 
-**BFBTbridge** は PC 常駐のブリッジです。スマホの DTworkeasy で QR ペアリングすると、本機の Cursor / Codex / BFBT Code を遠隔利用できます。Windows・macOS（Apple Silicon）・Linux（TUI）に対応。配布専用リポジトリ（ソース無し）。公式サイト：https://www.dtrony.com
+**BFBTbridge** は PC 常駐のブリッジです。スマホの DTworkeasy で QR ペアリングすると、本機の Cursor / Codex / BFBT Code を遠隔利用できます。Windows・macOS（Apple Silicon）・Linux（TUI）に対応。利用には BFBT Code と同じくトライアル期間または有効なメンバーシップが必要です（1 つのメンバーシップで両製品をカバー）。DTworkeasy モバイルアプリは登録後無料です。配布専用リポジトリ（ソース無し）。公式サイト：https://www.dtrony.com
 
 ## 한국어（요약）
 
-**BFBTbridge**는 PC에 상주하는 브리지입니다. DTworkeasy 모바일 앱에서 QR로 페어링하면 로컬 Cursor / Codex / BFBT Code 를 원격 제어할 수 있습니다. Windows·macOS(Apple Silicon)·Linux(TUI) 지원. 배포 전용 저장소(소스 없음). 공식: https://www.dtrony.com
+**BFBTbridge**는 PC에 상주하는 브리지입니다. DTworkeasy 모바일 앱에서 QR로 페어링하면 로컬 Cursor / Codex / BFBT Code 를 원격 제어할 수 있습니다. Windows·macOS(Apple Silicon)·Linux(TUI) 지원. 사용에는 BFBT Code와 동일하게 체험 기간 또는 유효한 멤버십이 필요하며, 하나의 멤버십으로 두 제품을 모두 이용할 수 있습니다. DTworkeasy 모바일 앱은 가입 후 무료입니다. 배포 전용 저장소(소스 없음). 공식: https://www.dtrony.com
 
 ---
 
